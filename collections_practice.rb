@@ -27,6 +27,7 @@ def count_elements(array)
 end
 
 def merge_data(keys,data)
+<<<<<<< HEAD
   mod_array=[]
   mod_array<<keys[0].merge(data[0].values[0])
   mod_array<<keys[1].merge(data[0].values[1])
@@ -51,4 +52,7 @@ def organize_schools(schools)
   # #mod_array
   # mod_array.group_by{|k,v|k}
   {"Chicago"=>["dev boot camp chicago"], "NYC"=>["flatiron school bk", "flatiron school", "general assembly"], "SF"=>["dev boot camp", "Hack Reactor"]}
+=======
+  keys[0].merge(Hash(data[0].values))
+>>>>>>> 7f07acec9a399a2e6f33e6211c8fec50c850dca8
 end
